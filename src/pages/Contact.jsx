@@ -18,9 +18,7 @@ const Contact = () => {
     const serviceKey = import.meta.env.VITE_SERVICE_ID;
     const templateKey = import.meta.env.VITE_TEMPLATE_ID;
 
-    console.log("Service ID:", serviceKey);
-console.log("Template ID:", templateKey);
-console.log("Public Key:", publicKey);
+    
 
     emailjs.sendForm(
         serviceKey,     // ✅ Replace with your actual service ID
