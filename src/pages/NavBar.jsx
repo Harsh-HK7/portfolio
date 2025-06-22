@@ -3,7 +3,7 @@ import mePng from '../assets/me.png'; // Adjust the path as necessary
 import Home from '../assets/Home.png'
 import About from '../assets/About.png'
 import Projects from '../assets/Projects.png'
-import Contact from '../assets/Contact.png'
+import Contact from '../assets/contact.png'
 
 const NavBar = () => {
   return (
