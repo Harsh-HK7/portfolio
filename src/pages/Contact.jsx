@@ -62,7 +62,7 @@ const Contact = () => {
       </div>
 
       {/* Right Side: Contact Form */}
-      <div className="md:w-1/2 bg-gray-900 p-8 rounded-lg shadow-md">
+      <div className="md:w-1/2 bg-gray-900 p-8 rounded-lg shadow-md h-auto">
         <form ref={form} onSubmit={sendEmail} className="space-y-6">
           <div>
             <label className="block text-sm mb-1">Name</label>
